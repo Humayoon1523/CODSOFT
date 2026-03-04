@@ -2,20 +2,15 @@
     "name": "Calculator",
     "short_name": "Calculator",
     "description": "A sleek, dark-themed calculator with voice interaction.",
-    "start_url": "/calculater.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#0d0f14",
     "theme_color": "#00e5ff",
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "icon.png",
             "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "icon-512.png",
-            "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "any"
         }
     ]
 }
