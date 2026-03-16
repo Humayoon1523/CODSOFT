@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad | Personal Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Mohammad, a creative Web Developer specializing in beautiful, dynamic, and responsive web experiences.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">Mohamed.<span>Portfolio</span></a>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" class="btn btn-outline" download>Resume</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Mohamed Humayoon</span></h1>
+                <p>Enthusiastic Computer Science Engineering student with a strong foundation in programming, algorithms, and problem-solving, eager to apply technical skills to real-world projects.</p>
+                <h2>Computer Software Engineering Student</h2>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img id="profile-img" src="assets/profile_pic_1773678508468.png" alt="Mohamed Humayoon Profile Picture">
+                    <div class="image-backdrop"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>Building a secure and beautiful web starts with a deep understanding of how it all connects. My journey into tech began with a fascination for networking and cybersecurity, and evolved into full-stack development. Today, I am a Computer Software Engineering student at K.Ramakrishnan College of Technology.</p>
+                    <p>I blend offensive security knowledge (like Red Teaming and Penetration Testing) with robust back-end development (Python, Databases, APIs). Recently, I've been expanding my front-end skills through an internship at CodSoft, bridging the gap between bulletproof backends and engaging UIs.</p>
+                    <p>When I'm not writing code or looking for vulnerabilities, you can find me playing chess, exploring open-source projects, or learning about new security architectures.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="resume.pdf" class="btn btn-primary" download>Download Resume <i class="fas fa-download" style="margin-left: 8px;"></i></a>
+                    </div>
+                    <div class="contact-info-inline">
+                        <p><i class="fas fa-envelope"></i> mohamedhumayoon2007@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 8760298464</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE TIMELINE ========== -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <h4>CodSoft</h4>
+                        <p class="timeline-date"><i class="far fa-calendar-alt"></i> Present</p>
+                        <p>Focusing on building beautiful, dynamic, and responsive web experiences. Developing skills in scalable architecture, clean code, and full-stack integration.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.E. Computer Software Engineering</h3>
+                        <h4>K.Ramakrishnan College of Technology</h4>
+                        <p class="timeline-date"><i class="far fa-calendar-alt"></i> Current Student</p>
+                        <p>Building a strong foundation in programming, algorithms, databases, and problem-solving. Engaging in practical projects involving Cybersecurity, Python, and Web Development.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card reveal-on-scroll">
+                    <div class="service-icon"><i class="fas fa-shield-virus"></i></div>
+                    <h3>Web App Security Audits</h3>
+                    <p>Identifying vulnerabilities and ensuring web applications stand up against modern cyber threats through meticulous manual testing and automated tools.</p>
+                </div>
+                <div class="service-card reveal-on-scroll">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Full Stack Development</h3>
+                    <p>Designing, building, and deploying scalable web applications with secure backend architectures, clean APIs, and dynamic front-end interfaces.</p>
+                </div>
+                <div class="service-card reveal-on-scroll">
+                    <div class="service-icon"><i class="fas fa-user-ninja"></i></div>
+                    <h3>Penetration Testing</h3>
+                    <p>Conducting proactive Red Teaming and ethical hacking assessments to fortify systems before malicious actors can exploit them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-slider">
+                <div class="skill-card active">
+                    <i class="fas fa-server skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Back-End Web Dev</h3>
+                        <p>Building Robust APIs & Architecture</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Python</h3>
+                        <p>Programming & Scripting</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Databases</h3>
+                        <p>Data Storage & Management</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Penetration Testing</h3>
+                        <p>Identifying & Fixing Vulnerabilities</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-user-secret skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Red Teaming</h3>
+                        <p>Offensive Security Testing</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users skill-icon"></i>
+                    <div class="skill-content">
+                        <h3>Soft Skills</h3>
+                        <p>Communication & Team Management</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="--progress: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS SECTION ========== -->
+    <section id="certifications" class="certifications section" style="background: var(--surface-light);">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 650px; margin-left: auto; margin-right: auto;">
+                Showcasing highlights from 24+ professional certifications earned across Cybersecurity, Cloud Computing, and Software Engineering.
+            </p>
+            <div class="cert-grid">
+                
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="cert-content">
+                        <h3>Cybersecurity & Pentesting</h3>
+                        <p>Kali Linux, CISSP Assessment, Cyber Threats, Brute Force Attacks</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+                    <div class="cert-content">
+                        <h3>Cloud & DevOps</h3>
+                        <p>AWS Organizations, Cloud Computing, Getting Started with DevOps on AWS</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-code"></i></div>
+                    <div class="cert-content">
+                        <h3>Software Development</h3>
+                        <p>Modern Java 8 to 21, Front End Development, JavaScript & HTML</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                    <div class="cert-content">
+                        <h3>AI & Machine Learning</h3>
+                        <p>Generative AI Projects, AWS ML Basics, GitHub Copilot Coding</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-database"></i></div>
+                    <div class="cert-content">
+                        <h3>Data & Infrastructure</h3>
+                        <p>SQL Certification Course, Maven Tutorial For Beginners</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fas fa-tasks"></i></div>
+                    <div class="cert-content">
+                        <h3>Agile & Management</h3>
+                        <p>Foundations of Agile, Scrum Roles, Events, and Artifacts</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal-on-scroll">
+                    <div class="cert-icon"><i class="fab fa-hackerrank"></i></div>
+                    <div class="cert-content">
+                        <h3>HackerRank Verified Skills</h3>
+                        <p>Python (Basic), Problem Solving (Basic)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img id="project-1-img" src="assets/food_ordering_system.png" alt="Food Ordering System Mockup">
+                    </div>
+                    <div class="project-info">
+                        <h3>Food Ordering System</h3>
+                        <p>A comprehensive food ordering system featuring a modern UI, seamless navigation, and intuitive user experience.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Humayoon1523/food-ordering-system" class="btn btn-outline btn-sm" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img id="project-2-img" src="assets/admin_dashboard.png" alt="Analytics Dashboard Interface Mockup">
+                    </div>
+                    <div class="project-info">
+                        <h3>Admin Dashboard</h3>
+                        <p>A comprehensive admin dashboard with data visualization, interactive charts, and user management features.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Humayoon1523/Dashboard" class="btn btn-outline btn-sm" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img id="project-3-img" src="assets/basic_calculator.png" alt="Basic Calculator Interface Mockup">
+                    </div>
+                    <div class="project-info">
+                        <h3>Basic Calculator</h3>
+                        <p>A functional and beautifully styled basic calculator web application, developed as part of the CODSOFT internship.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Humayoon1523/CODSOFT" class="btn btn-outline btn-sm" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Me</h4>
+                            <a href="mailto:mohamedhumayoon2007@gmail.com">mohamedhumayoon2007@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Call Me</h4>
+                            <a href="tel:8760298464">8760298464</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Mohamed.<span>Portfolio</span></h2>
+                <p>Building the web, one pixel at a time.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Humayoon1523" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/mohamed-humayoon-2421aa2a9" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.hackerrank.com/profile/mohamedhumayoon1" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mohamed Humayoon. All rights reserved.</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
